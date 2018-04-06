@@ -15,4 +15,3 @@ SQL
 
 DB[:conn].execute(sql)
 DB[:conn].results_as_hash = true
-
