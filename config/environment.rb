@@ -14,5 +14,5 @@ sql = <<-SQL
 SQL
 
 DB[:conn].execute(sql)
-test = DB[:conn].results_as_hash = true
-binding.pry
+DB[:conn].results_as_hash = true
+
